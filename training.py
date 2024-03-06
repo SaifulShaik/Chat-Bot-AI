@@ -14,6 +14,10 @@ import random
 
 lemmatizer = WordNetLemmatizer()
 
+
+
+
+
 # dictionary
 intents = json.loads(open('intents.json').read())
 

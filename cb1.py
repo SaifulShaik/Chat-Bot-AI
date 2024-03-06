@@ -55,7 +55,8 @@ def get_response(intents_list, intents_json):
     return "Sorry, I don't understand that."
 
 def get_weather(location):
-    api_key = "09fcc928c524350116c1f8d892f06376"
+    #go on openweathermap.org and generate a API key DO NOT LEAK UR API KEY
+    api_key = "ENTER YOUR API KEY"
     api_url = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid={api_key}"
     response = requests.get(api_url)
     weather_data = response.json()

@@ -1,0 +1,50 @@
+{ 
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["hello", "hey", "hi", "greetings", "good Day", "Welcome", "what's up?", "how are you doing?"],
+            "responses": ["Hello!", "hi", "How can i assist you today?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["cya", "bye", "goodbye", "i am leaving", "see ya", "see you", "have agood da", "ciao", "see you later", "have a good day"],
+            "responses": ["thanks for your service!", "have a wonderful day!", "see you later!", "take care!", "i hope i assisted you in some way!", "see you later!", "bye", "see you later!", "farewell!", "cheers!"]
+        },
+        {
+            "tag": "age",
+            "patterns": ["how old are you?", "whats your age", "how old", "age?", "how old is the owner", "how old is saiful"],
+            "responses": ["i am 15", "15 years old!", "the onwer saiful shaik is 15 years old!"]
+        },
+        {
+            "tag": "bothours",
+            "patterns": ["what are your operation hours", "how long can i use this app", "when you close", "you operation hours", "when does this close"],
+            "responses": ["24/7!", "i never stop working", "i will help you whenever where ever", " i work 24/7"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["whats your name?", "name?", "who are you", "who made this", "who are you"],
+            "responses": ["my name is CB, how can i help you!", "CB1, i will be your chat bot for today!", "I'm chat bot named CB1 made by saiful shaik"]
+        },
+        {   
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+        },
+        {
+            "tag": "search",
+            "patterns": ["open youtube", "open instagram", "open discord", "open spotify"],
+            "responses": ["", "", "", "", "", "", ""]
+        }, 
+        {
+            "tag": "emotions",
+            "patterns": ["I am feeling sad today", "I am happy", "", "", "", "", "", "", ""],
+            "responses": ["", "", "", "", ""]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather?", "How's the weather?", "Is it raining?", "Weather forecast", "Tell me the weather"],
+            "responses": ["Let me check the weather for you..."],
+            "context": ["weather_inquiry"]
+        }
+    ]
+}

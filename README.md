@@ -14,7 +14,10 @@ To run the project, you'll need the JSON file, the training.py file, and the CB1
 2. Training.py File: 
 3. CB1.py: This Python script is the main chatbot application. It loads the trained model, reads user input, predicts the intent of the input using the model, and generates an appropriate response based on the predicted intent and the responses defined in the JSON file.
 
-**KEY POINT:** ALWAYS RUN THE TRAINING PY FIRST AFTER MAKING CHANGES FOR THE BOT TO WORK.
+**KEY POINT:** 
+- ALWAYS RUN THE TRAINING PY FIRST AFTER MAKING CHANGES FOR THE BOT TO WORK.
+- AFTER RUNNING THE TRAINING FILE YOU WILL GET MULTIPLE OTHER FILES. DO NOT TOUCH THEM THEY ARE NEEDED FOR THE CB1.PY FILE WHEN IT IS RUNNED.
+- RUN THE CB1.PY FILE FOR THE FRONT PAGE.
 
 ## Json File
 The JSON file contains a collection of "intents", where each intent represents a specific action or query that the chatbot can handle. Each intent has three main components:
@@ -29,8 +32,20 @@ The JSON file contains a collection of "intents", where each intent represents a
 
 ## Installments
 
-## API Keys
 
+## API Keys
+An API key will access the information needed for the weather network.
+
+### Creating API Keys
+1. Go to the website OpenWeatherMap
+2. Make an account for your API Key
+3. On the top-right corner of the website you will see your username
+4. Tap your username
+5. After tapping your username, click my API Keys
+6. After accessing the page, you will see a API Key which is your defult
+7. Generate an API Key Named weather
+8. Copy the API Key after genatrated and use that API Key in the CB1.py file
+9. You've done it!
 
 
 

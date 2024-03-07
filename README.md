@@ -1,5 +1,16 @@
 # Chat-Bot-AI
 - **Adding more features later on**
+
+**1. Introduction**
+
+**2. File Procejure**
+
+**3. Json file**
+
+**4. Installments**
+
+**5. API Key**
+
 ## Introduction
 Hello everyone!
 
@@ -31,6 +42,28 @@ The JSON file contains a collection of "intents", where each intent represents a
 4. Context: The "context" field is typically used to indicate a specific context or state that the conversation is in after a particular intent is recognized. This allows the chatbot to remember and track information about the conversation, which can influence how it responds to subsequent user inputs.
 
 ## Installments
+--> **Make sure python is installed**
+--> Installments proccess below
+--> Remember to install pip if your OS does not have pip installed
+1. install numpy
+2. install nltk
+3. install keras
+
+#### Installing numpy (pip refers to Python 2. pip3 refers to Python 3.)
+1. Windows and Mac: pip install numpy (OR) pip3 install install numpy
+2. Linux: sudo pip install -U numpy (OR) sudo pip3 install -U numpy
+3. Anaconda: conda install -c anaconda numpy
+
+
+#### Installing nltk
+1. Windows and Mac: pip install nltk (OR) pip3 install nltk
+2. Linux: sudo pip install -U nltk (OR) sudo pip3 install -U nltk
+3. Anaconda: conda install -c anaconda nltk
+
+#### Installing Keras
+1. Windows and Mac: pip install keras (OR) pip3 install keras
+2. Linux: pip3 install Keras
+3. Anaconda: conda install -c anaconda keras
 
 
 ## API Keys
@@ -46,6 +79,8 @@ An API key will access the information needed for the weather network.
 7. Generate an API Key Named weather
 8. Copy the API Key after genatrated and use that API Key in the CB1.py file
 9. You've done it!
+
+**Bonus:** Having trouble? report an issue in the questions or bugs tag I make sure to take a look will take a look
 
 
 

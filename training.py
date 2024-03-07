@@ -1,3 +1,35 @@
+
+
+
+
+
+#################################
+#                               #
+#                               #
+#                               #
+#           Chat Bot AI         #
+#      Made By: Saiful Shaik    #
+#                               #
+#                               #
+#                               #
+#################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import json
 import requests
 import numpy as np
@@ -13,11 +45,6 @@ import pickle
 import random
 
 lemmatizer = WordNetLemmatizer()
-
-
-
-
-
 
 # dictionary
 intents = json.loads(open('intents.json').read())

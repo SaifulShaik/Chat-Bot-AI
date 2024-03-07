@@ -1,3 +1,35 @@
+
+
+
+
+
+#################################
+#                               #
+#                               #
+#                               #
+#           Chat Bot AI         #
+#      Made By: Saiful Shaik    #
+#                               #
+#                               #
+#                               #
+#################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import random
 import json
 import pickle
@@ -56,7 +88,7 @@ def get_response(intents_list, intents_json):
 
 def get_weather(location):
     #go on openweathermap.org and generate a API key DO NOT LEAK UR API KEY
-    api_key = "ENTER YOUR API KEY"
+    api_key = "YOUR_API_KEY"
     api_url = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid={api_key}"
     response = requests.get(api_url)
     weather_data = response.json()

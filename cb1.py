@@ -1,3 +1,14 @@
+#################################
+#                               #
+#                               #
+#                               #
+#           Chat Bot AI         #
+#      Made By: Saiful Shaik    #
+#                               #
+#                               #
+#                               #
+#################################
+
 import random
 import json
 import pickle

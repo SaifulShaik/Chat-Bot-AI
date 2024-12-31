@@ -1,50 +1,196 @@
-{ 
+{
     "intents": [
         {
             "tag": "greetings",
-            "patterns": ["hello", "hey", "hi", "greetings", "good Day", "Welcome", "what's up?", "how are you doing?"],
-            "responses": ["Hello!", "hi", "How can i assist you today?"]
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "greetings",
+                "what's up?",
+                "how are you?"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey there!",
+                "How can I assist you today?",
+                "What's up? How may I help you?"
+            ]
         },
         {
             "tag": "goodbye",
-            "patterns": ["cya", "bye", "goodbye", "i am leaving", "see ya", "see you", "have agood da", "ciao", "see you later", "have a good day"],
-            "responses": ["thanks for your service!", "have a wonderful day!", "see you later!", "take care!", "i hope i assisted you in some way!", "see you later!", "bye", "see you later!", "farewell!", "cheers!"]
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "take care",
+                "farewell"
+            ],
+            "responses": [
+                "Take care!",
+                "See you later!",
+                "Goodbye, have a great day!",
+                "Bye, hope I helped!"
+            ]
         },
         {
             "tag": "age",
-            "patterns": ["how old are you?", "whats your age", "how old", "age?", "how old is the owner", "how old is saiful"],
-            "responses": ["i am 15", "15 years old!", "the onwer saiful shaik is 15 years old!"]
+            "patterns": [
+                "how old are you?",
+                "what is your age?",
+                "how old is saiful?"
+            ],
+            "responses": [
+                "I am 15 years old.",
+                "The owner, Saiful Shaik, is 15 years old."
+            ]
         },
         {
-            "tag": "bothours",
-            "patterns": ["what are your operation hours", "how long can i use this app", "when you close", "you operation hours", "when does this close"],
-            "responses": ["24/7!", "i never stop working", "i will help you whenever where ever", " i work 24/7"]
+            "tag": "operation_hours",
+            "patterns": [
+                "what are your operation hours?",
+                "when are you available?",
+                "how long can I use this app?"
+            ],
+            "responses": [
+                "I work 24/7, I'm always here to assist you!"
+            ]
         },
         {
             "tag": "name",
-            "patterns": ["whats your name?", "name?", "who are you", "who made this", "who are you"],
-            "responses": ["my name is CB, how can i help you!", "CB1, i will be your chat bot for today!", "I'm chat bot named CB1 made by saiful shaik"]
+            "patterns": [
+                "what's your name?",
+                "who are you?",
+                "who made you?"
+            ],
+            "responses": [
+                "I am CB1, your chatbot assistant, created by Saiful Shaik."
+            ]
         },
-        {   
+        {
             "tag": "thanks",
-            "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
-            "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+            "patterns": [
+                "thank you",
+                "thanks",
+                "that was helpful"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Glad to help!",
+                "Anytime!"
+            ]
         },
         {
             "tag": "search",
-            "patterns": ["open youtube", "open instagram", "open discord", "open spotify"],
-            "responses": ["", "", "", "", "", "", ""]
-        }, 
+            "patterns": [
+                "open youtube",
+                "open instagram",
+                "open discord",
+                "open spotify"
+            ],
+            "responses": [
+                "Opening YouTube...",
+                "Opening Instagram...",
+                "Opening Discord...",
+                "Opening Spotify..."
+            ]
+        },
         {
             "tag": "emotions",
-            "patterns": ["I am feeling sad today", "I am happy", "", "", "", "", "", "", ""],
-            "responses": ["", "", "", "", ""]
+            "patterns": [
+                "I am sad",
+                "I am happy",
+                "I feel excited",
+                "I feel terrible",
+                "I am feeling great"
+            ],
+            "responses": [
+                "I'm here if you need to talk.",
+                "That's great to hear!",
+                "I'm sorry you're feeling that way, I'm here for you."
+            ]
         },
         {
             "tag": "weather",
-            "patterns": ["What's the weather?", "How's the weather?", "Is it raining?", "Weather forecast", "Tell me the weather"],
-            "responses": ["Let me check the weather for you..."],
-            "context": ["weather_inquiry"]
+            "patterns": [
+                "What's the weather?",
+                "How's the weather today?",
+                "Is it raining?",
+                "What is the weather like?"
+            ],
+            "responses": [
+                "Let me check the weather for you..."
+            ],
+            "context": [
+                "weather_inquiry"
+            ]
+        },
+        {
+            "tag": "math",
+            "patterns": [
+                "Can you help me with math?",
+                "I need help with math",
+                "Solve this for me",
+                "What is 5 plus 8?",
+                "What is 7 * 6?"
+            ],
+            "responses": [
+                "Sure! What math problem do you need help with?",
+                "I can solve that. What's your question?"
+            ]
+        },
+        {
+            "tag": "math_answer",
+            "patterns": [
+                "What is 5 + 3?",
+                "What is 9 - 4?",
+                "Calculate 12 * 7",
+                "What is 18 / 3?"
+            ],
+            "responses": [
+                "5 + 3 equals 8.",
+                "9 - 4 equals 5.",
+                "12 * 7 equals 84.",
+                "18 / 3 equals 6."
+            ]
+        },
+        {
+            "tag": "work_help",
+            "patterns": [
+                "Can you help me with my homework?",
+                "I need help with my project",
+                "Can you assist with this task?"
+            ],
+            "responses": [
+                "Of course! What do you need help with?",
+                "I'm happy to assist. What are you working on?"
+            ]
+        },
+        {
+            "tag": "study_tips",
+            "patterns": [
+                "Any study tips?",
+                "How can I study better?",
+                "What are some good study habits?"
+            ],
+            "responses": [
+                "Try summarizing the material in your own words.",
+                "Take regular breaks to avoid burnout.",
+                "Practice active recall to improve memory retention."
+            ]
+        },
+        {
+            "tag": "time_management",
+            "patterns": [
+                "How can I manage my time?",
+                "Any time management tips?",
+                "How do I stay organized?"
+            ],
+            "responses": [
+                "Use a to-do list to prioritize your tasks.",
+                "Break down big tasks into smaller ones.",
+                "Set deadlines and stick to them."
+            ]
         }
     ]
 }
